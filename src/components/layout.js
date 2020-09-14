@@ -1,5 +1,6 @@
 import React from "react"
-import Header from './Header'
+import Header from './header'
+import Footer from './Footer'
 export default function Layout({children}) {
     return(
         <div className="mx-auto px-10 max-w-6xl">
