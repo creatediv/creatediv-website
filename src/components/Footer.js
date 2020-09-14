@@ -1,7 +1,4 @@
 import React from "react";
-import Logo from "../assets/icons/logo.svg";
-import Menu from "../assets/icons/menu.svg";
-import { Link } from 'gatsby';
 class Footer extends React.Component {
     isMenuOpen = false;
     constructor(props) {
@@ -40,4 +37,4 @@ class Footer extends React.Component {
     }
 }
 
-export default Header;
+export default Footer;
