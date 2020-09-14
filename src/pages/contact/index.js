@@ -1,6 +1,5 @@
 import React from "react"
-import Button from '../../components/Button';
-import Layout from '../../components/Layout';
+import Layout from '../../components/Layout.js';
 export default () =>
 
 <Layout >
