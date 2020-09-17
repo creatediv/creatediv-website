@@ -1,14 +1,18 @@
-import React from "react"
+import React, { Fragment } from "react"
 import Header from './Header'
 import Footer from './Footer'
+import SEO from './common/SEO';
 export default function Layout({children}) {
     return(
-        <div className="mx-auto px-10 max-w-6xl">
-            <Header></Header>
-            <div style={{marginTop: '100px'}}>
-                {children}
+        <Fragment>
+            <SEO />
+            <div className="mx-auto px-10 max-w-6xl">
+                <Header></Header>
+                <div style={{marginTop: '100px'}}>
+                    {children}
+                </div>
+                <Footer></Footer>
             </div>
-            <Footer></Footer>
-        </div>
+        </Fragment>
     )
 }

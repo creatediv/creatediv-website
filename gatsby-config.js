@@ -1,8 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Creatediv | Brand Identity and Web Development Agency | Calgary, Alberta`,
+    description: `Creatediv is a brand identity and web development agency based in Calgary, Canada.`,
+    author: `@Ray Masiclat`,
+    titleTemplate: `%s`,
+    defaultImage: ``,
+    twitterUsername: `@creatediv`,
+    url: `https://www.creatediv.io`,
+    siteUrl: `https://www.workhub.io`,
+    image: ``
   },
   plugins: [`gatsby-plugin-react-svg`,
     {
