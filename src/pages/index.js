@@ -1,90 +1,9 @@
 import React from "react"
 import Layout from '../components/Layout';
-export default () =>
-
-<Layout>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-  <h1> I'm in a layout!</h1>
-</Layout>
+import Banner from "../components/common/Banner"
+export default () => (
+  <Layout>
+    <Banner />
+    {/* <h1 style={{marginTop: '100vh'}}>AAAAAAAAAAAAAAAAAA</h1> */}
+  </Layout>
+)

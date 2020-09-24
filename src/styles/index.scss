@@ -7,11 +7,31 @@ body {
 }
 
 .nav-shadow {
-    box-shadow: 0 0 10px rgba(0,0,0,0.4); 
-}
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    background-color: white;
+    color: black !important;
+    transition: ease-in;
+    transition-duration: 100ms;
+    transition-property: background-color;
+
+    .logo {
+        filter: none !important;
+    }
+
+    .hamburger {
+        color: black !important;
+    }
+
+    .create {
+        border-color: black !important;
+    }
+    }
 
 @media screen and (min-width: 1024px){
     .nav {
         max-height: 100px;
     }
+}
+.hero-image {
+    background-image: url('../assets/images/hero-pattern.png');
 }

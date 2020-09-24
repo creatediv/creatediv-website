@@ -3,16 +3,14 @@ import Header from './Header'
 import Footer from './Footer'
 import SEO from './common/SEO';
 export default function Layout({children}) {
-    return(
-        <Fragment>
-            <SEO />
-            <div className="mx-auto px-10 max-w-6xl">
-                <Header></Header>
-                <div style={{marginTop: '100px'}}>
-                    {children}
-                </div>
-                <Footer></Footer>
-            </div>
-        </Fragment>
+    return (
+      <Fragment>
+        <SEO />
+        <div className="mx-auto px-10 max-w-6xl">
+          <Header></Header>
+          <div class="max-w-6xl">{children}</div>
+          {/* <Footer></Footer> */}
+        </div>
+      </Fragment>
     )
 }
