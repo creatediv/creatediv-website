@@ -8,18 +8,20 @@ module.exports = {
     twitterUsername: `@creatediv`,
     url: `https://www.creatediv.io`,
     siteUrl: `https://www.workhub.io`,
-    image: ``
+    image: ``,
   },
-  plugins: [`gatsby-plugin-react-svg`,
+  plugins: [
+    `gatsby-plugin-preload-fonts`,
+    `gatsby-plugin-react-svg`,
     {
-  resolve: "gatsby-plugin-web-font-loader",
-  options: {
-      custom: {
-        families: ["Gotham"],
-        urls: ["/fonts/fonts.scss"],
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["Gotham"],
+          urls: ["/fonts/fonts.scss"],
+        },
       },
     },
-  },
     {
       resolve: `gatsby-plugin-sass`,
       options: {
@@ -35,7 +37,7 @@ module.exports = {
         printRejected: false,
         develop: false,
         tailwind: true,
-      }
+      },
     },
     `gatsby-plugin-react-helmet`,
     {

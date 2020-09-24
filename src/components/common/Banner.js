@@ -33,10 +33,10 @@ class Banner extends React.Component {
         /> */}
         <div
           class="flex w-full h-full justify-center place-items-start max-w-6xl"
-          style={{ marginTop: "216px" }}
+          style={{ marginTop: "270px" }}
         >
           <div class="flex flex-col-reverse xl:flex-row flex-wrap w-full justify-center place-items-center">
-            <div class="flex flex-col w-11/12 xl:w-6/12 mt-10 justify-center">
+            <div class="flex flex-col w-11/12 xl:w-6/12 mt-10 xl:mt-0 justify-center">
               <div className="flex flex-col place-items-center">
                 <div className="flex font-extrabold text-4xl md:text-6xl w-full justify-center">
                   <span class="flex">Maximize your</span>
@@ -57,15 +57,17 @@ class Banner extends React.Component {
               <div class="flex justify-center mt-10">
                 <Link
                   to="/contact"
+                  aria-label="Contact Page"
                   className="create flex px-5 py-3 border-black border-2 border-solid rounded-lg hover:bg-black hover:text-white duration-300"
                 >
                   Get Started
                 </Link>
               </div>
             </div>
-            <div class="flex w-8/12 xl:w-6/12 -mt-16 justify-left">
+            <div class="flex w-8/12 xl:w-6/12 -mt-16 xl:mt-0 justify-left">
               <img
-                className=" h-64 xl:h-full"
+                alt="Hero Image"
+                className="h-64 xl:h-full"
                 src={heroImage}
                 style={{
                   width: "100%",

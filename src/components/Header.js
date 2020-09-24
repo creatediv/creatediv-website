@@ -31,7 +31,7 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div
+      <header
         className="float-left overflow-hidden flex justify-center fixed top-0 left-0 w-full nav z-50 bg-transparent px-5 xl:px-0"
         style={{
           height: this.state.isMenuOpen ? "388px" : "100px",
@@ -41,7 +41,7 @@ class Header extends React.Component {
       >
         <div className="flex w-full max-w-6xl flex-col">
           <div className="flex justify-between align-center">
-            <Link to="/" className="flex">
+            <Link to="/" aria-label="Home Page" className="flex">
               <Logo className="logo max-w-xs" />
             </Link>
             <div className="menu">
@@ -112,7 +112,7 @@ class Header extends React.Component {
             </ul>
           </div>
         </div>
-      </div>
+      </header>
     )
   }
 }
